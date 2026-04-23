@@ -1,0 +1,20 @@
+{
+  "model": {
+    "name": "gemini-3.1-flash-lite-preview"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 .gemini/check_models.py",
+            "name": "Check for New Models",
+            "is_background": true
+          }
+        ]
+      }
+    ]
+  }
+}

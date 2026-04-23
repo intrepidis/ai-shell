@@ -1,0 +1,2 @@
+description = "Checks if the current project model is the latest available in the local registry."
+prompt = "Run: python3 .gemini/check_models.py"
