@@ -15,6 +15,4 @@ This directory serves as the root for Gemini CLI operations within the `ai-shell
 ## AI-Shell Integration
 To ensure optimal performance and seamless integration with the AI-Shell:
 1. **Shell Environment:** This workspace is optimized for the Fish shell. Ensure your shell session is correctly initialized.
-2. **Plugin Management:** Utilize `fisher` to maintain your plugin suite. 
-3. **Configuration:** Plugin configurations, including API keys and provider settings, are managed in `~/.config/fish-ai.ini`. Secure API keys using the provided plugin utilities rather than direct file editing where possible.
-
+2. **Configuration:** Secure API keys using the provided plugin utilities rather than direct file editing where possible.
