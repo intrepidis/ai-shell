@@ -16,5 +16,14 @@
         ]
       }
     ]
+  },
+  "general": {
+    "defaultApprovalMode": "auto_edit",
+    "plan": {
+      "enabled": false
+    }
+  },
+  "ui": {
+    "hideBanner": true
   }
 }
