@@ -1,0 +1,11 @@
+[Unit]
+Description=Battery level monitor with urgent notifications
+After=graphical-session.target
+
+[Service]
+ExecStart=/home/intrepidis/Code/ai-shell/battery-monitor.sh
+Restart=on-failure
+RestartSec=30
+
+[Install]
+WantedBy=default.target

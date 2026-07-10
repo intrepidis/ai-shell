@@ -1,1 +1,1 @@
-Read and follow the instructions in [AGENT.md](AGENT.md).
+Read and follow the instructions in [AGENTS.md](AGENTS.md).
