@@ -1,0 +1,9 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "command": {
+    "fix-home-ownership": {
+      "template": "Load the `fix-home-ownership` skill and follow its protocol. The user has explicitly requested a full ownership repair.",
+      "description": "Restore ownership of root-written files in the invoking user's home"
+    }
+  }
+}
