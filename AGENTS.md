@@ -11,10 +11,10 @@
 
 ## AI-Shell Integration
 To ensure optimal performance and seamless integration:
-1. **Desktop Environment:** We are using GNOME on Wayland. Never suggest changing to Xorg or X11.
+1. **Desktop Environment:** We are using XFCE on X11 (Debian GNU/Linux 13 trixie). Do not suggest switching to GNOME or Wayland unless explicitly requested.
 2. **Toolkit Preference:** Prefer GTK over Qt when recommending applications or tooling.
 3. **Shell Environment:** This workspace is optimized for the Fish shell. Bash is available but generally not used.
-4. **Editor Preference:** We use the Xed text editor. Do not suggest Nano unless explicitly requested.
+4. **Editor Preference:** We use the Mousepad text editor. Do not suggest Nano unless explicitly requested.
 5. **Configuration:** Secure API keys using the provided plugin utilities rather than direct file editing where possible.
 
 ## Installation Preferences
